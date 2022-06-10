@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/rich.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" 
+    rel="stylesheet">
+    <script src="https://kit.fontawesome.com/761b4a6616.js" crossorigin="anonymous"></script>
+    <title>Register - Richard Damilola</title>
+</head>
+<body>
+    <header class="reg-nav">
+        <nav>
+            <a href="index.html" class="logo">Rich<span>Dam</span></a>
+            <div class="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">About Me</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+            <a href="contact.html" class="btn">Contact Me</a>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+    </header>
+    
+    <main>   
+    <div class="container">
+            <div class="card">
+                <div class="inner-box" id="card">
+                    <div class="signup">
+                        <h2>REGISTER</h2>
+                        <form action="" method="">
+                            <input type="text" class="input-box" placeholder="First Name" required>
+                            <input type="text" class="input-box" placeholder="Second Name" required>
+                            <input type="tel" class="input-box" placeholder="Phone" required>
+                            <select class="input-box" name="Gender" required="">
+                                <option disabled="disabled" selected="selected">------ Gender ------</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                            </select>
+                            <input type="text" class="input-box" placeholder="Country" required>
+                            <input type="text" class="input-box" placeholder="State/Province" required>
+                            <input type="email" class="input-box" placeholder="Email" required>
+                            <input type="password" class="input-box" placeholder="Password" required>
+                            <input type="password" class="input-box" placeholder="Confirm Password" required>
+                            <button type="button" class="submit-btn">Submit</button>
+                            <input type="checkbox"><span>Remember Me</span>
+                        </form>
+                        <p>Already Have an Acount? <a href="login.html">Login</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main> 
+    <footer>
+        <h4>Designed by Rich<span>Dam</span></h4>
+    </footer>
+
+</body>
+</html>
